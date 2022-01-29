@@ -1,0 +1,78 @@
+body {
+  background-color: #f3f3f4;
+}
+.main {
+  display: flex;
+  align-items: center;
+}
+
+.screen__box {
+  width: 300px;
+  height: 600px;
+  background-color: white;
+  border-radius: 30px;
+  margin: 50px 50px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 30px;
+}
+.main__song {
+  margin-top: 50px;
+}
+
+.singer__face {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.singer__face img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+.main__song span {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+#Rap {
+  font-size: 18px;
+  font-weight: normal;
+  opacity: 0.7;
+  margin-bottom: 15px;
+}
+.shuffle__like__buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shuffle__button {
+  width: 100px;
+  height: 40px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  margin-right: 20px;
+  color: white;
+  font-size: 15px;
+}
+.like__button {
+  width: 100px;
+  height: 40px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.05);
+  font-size: 15px;
+}
+.like__button i {
+  margin-right: 10px;
+}
