@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <link rel="stylesheet" href="music_player.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<link
+    href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+    rel="stylesheet">
+<link rel="stylesheet" href="music_player.css">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
 </head>
 
 <body>
     <div class="main">
-        <div class="screen__box">
+        <div class="screen__box screen__box1">
             <div class="header">
                 <i class="fas fa-arrow-left"></i>
                 <i class="fas fa-search"></i>
@@ -28,21 +29,128 @@
                         Shuffle
                     </div>
                     <div class="like__button">
-                        <i class="fas fa-heart"></i> 219,971
+                        <i class="fas fa-heart heart"></i> 777,777
                     </div>
                 </div>
             </div>
 
+            <div class="song__lists">
+                <div class="song__list">
+                    <img class="song__img" src="images/메테오.png">
+                    <div class="song__span">
+                        <span>Changmo</span><br>
+                        <span>Meteor</span>
+                    </div>
+                    <i class="fas fa-ellipsis-v"></i>
+                </div>
+                <div class="song__list">
+                    <div class="playing__song">
+                        <img class="song__img" src="images/black_pink.jfif">
+                        <span class="material-icons-outlined">
+                            bar_chart
+                        </span>
+                    </div>
+                    <div class="song__span">
+                        <span>Black Pink</span><br>
+                        <span>Kill this Love</span>
+                    </div>
+                    <i class="fas fa-ellipsis-v"></i>
+                </div>
+                <div class="song__list">
+                    <img class="song__img" src="images/bts.jpg">
+                    <div class="song__span">
+                        <span>BTS</span><br>
+                        <span>Dynamite</span>
+                    </div>
+                    <i class="fas fa-ellipsis-v"></i>
+                </div>
+                <div class="song__list">
+                    <img class="song__img" src="images/2002.jfif">
+                    <div class="song__span">
+                        <span>Anne-Marie</span><br>
+                        <span>2002</span>
+                    </div>
+                    <i class="fas fa-ellipsis-v"></i>
+                </div>
+            </div>
 
+            <div class="play__bar">
+                <div class="play__bar__span">
+                    <span>Black Pink</span> <br>
+                    <span>Kill this Love</span>
+                </div>
+                <div class="play__bar__icons">
+                    <span class="material-icons-outlined">
+                        skip_previous
+                    </span>
+                    <span class="material-icons-outlined">
+                        pause
+                    </span>
+                    <span class="material-icons-outlined">
+                        skip_next
+                    </span>
+
+                </div>
+            </div>
         </div>
-
-
 
         <div class="screen__box">
             <div class="header">
                 <i class="fas fa-arrow-left"></i>
                 <i class="fas fa-bars"></i>
             </div>
+
+            <div class="play__list__main">
+                <img class="play__list__main__img" src="images/black_pink.jfif">
+                <div class="play__list__main__span">
+                    <span>Kill This Love</span><br>
+                    <span>Black Pink</span>
+                </div>
+            </div>
+
+            <div class="play__list__input">
+                <div class="play__list__time">
+                    <span>1:29</span>
+                    <span>4:07</span>
+                </div>
+            </div>
+            <div class="bars">
+                <div class="line1"></div>
+                <div class="position"></div>
+                <div class="line2"></div>
+            </div>
+
+            <div class="play__bars">
+                <div class="turn">
+                    <span class="material-icons-outlined">
+                        autorenew
+                    </span>
+                </div>
+                <div>
+                    <span class="material-icons-outlined">
+                        skip_previous
+                    </span>
+                </div>
+                <div class="big__play">
+                    <span class="big__play material-icons-outlined">
+                        play_circle_filled
+                    </span>
+                </div>
+                <div>
+                    <span class="material-icons-outlined">
+                        skip_next
+                    </span>
+                </div>
+                <div class="shuffle">
+                    <span class="material-icons-outlined">
+                        shuffle
+                    </span>
+                </div>
+            </div>
+
+
+
+
         </div>
     </div>
 

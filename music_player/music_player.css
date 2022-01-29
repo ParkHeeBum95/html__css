@@ -76,3 +76,141 @@ body {
 .like__button i {
   margin-right: 10px;
 }
+.song__lists {
+  margin-left: 30px;
+}
+.song__list {
+  display: flex;
+  align-items: center;
+  margin: 12px 0px;
+  position: relative;
+}
+.song__list i {
+  position: absolute;
+  right: 30px;
+  opacity: 0.5;
+}
+.song__img {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+}
+.song__span {
+  margin-left: 15px;
+}
+
+.song__span span:first-child {
+  opacity: 0.6;
+}
+.song__span span:last-child {
+  font-weight: bold;
+}
+.play__bar {
+  position: absolute;
+  bottom: 30px;
+  margin-left: 30px;
+  color: white;
+  background-color: black;
+  width: 250px;
+  height: 50px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.play__bar__span {
+  margin-left: 20px;
+  font-size: 13px;
+}
+.play__bar__span span:first-child {
+  opacity: 0.5;
+}
+.play__bar__icons {
+  margin-right: 20px;
+  font-size: 5px;
+}
+.playing__song {
+  position: relative;
+}
+.playing__song span {
+  color: white;
+  position: absolute;
+  right: 12px;
+  top: 12px;
+}
+.screen__box1 {
+  position: relative;
+}
+.play__list__main {
+  margin: 25px;
+}
+.play__list__main__img {
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+  box-shadow: 0px 20px 40px #db9dc8;
+}
+.heart {
+  color: red;
+}
+.play__list__main__span {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+.play__list__main__span span:last-child {
+  font-size: 15px;
+  opacity: 0.5;
+}
+.play__list__input {
+  margin: 25px;
+}
+.play__list__time {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  opacity: 0.6;
+  font-weight: bold;
+}
+.bars {
+  position: relative;
+  margin: 2px 25px;
+  height: 10px;
+  display: flex;
+}
+.line1 {
+  width: 65%;
+  height: 5px;
+  background-color: black;
+  border-radius: 10px;
+}
+.position {
+  position: absolute;
+  right: 80px;
+  top: -5px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: black;
+}
+.line2 {
+  width: 35%;
+  height: 5px;
+  background-color: darkgray;
+  border-radius: 10px;
+}
+
+.play__bars {
+  margin: 10px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.big__play {
+  font-size: 60px;
+}
+.turn,
+.shuffle {
+  opacity: 0.4;
+}
