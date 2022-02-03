@@ -1,6 +1,19 @@
 body {
   margin: 0px;
 }
+.material-icons.md-18 {
+  font-size: 18px;
+}
+.material-icons.md-24 {
+  font-size: 24px;
+}
+.material-icons.md-36 {
+  font-size: 36px;
+}
+.material-icons.md-48 {
+  font-size: 48px;
+}
+
 .header {
   display: flex;
   width: 100%;
@@ -38,6 +51,8 @@ body {
   height: 40px;
 }
 .search__box {
+  display: flex;
+  align-items: center;
   width: 250px;
   height: 38px;
 
@@ -51,9 +66,102 @@ body {
 .search__box i {
   margin: 0 8px;
 }
-#my_prof {
-  width: 27px;
-  height: 27px;
+.my_prof {
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   border: solid 0.2px rgba(0, 0, 0, 0.3);
+}
+
+.icons span {
+  font-size: 27px;
+}
+
+.blank1 {
+  width: 25%;
+}
+
+.side1 {
+  width: 600px;
+}
+
+.side2 {
+  width: 300px;
+}
+
+.blank2 {
+}
+.body {
+  display: flex;
+}
+.storys {
+  margin: 30px 0px;
+  width: 100%;
+  height: 120px;
+  border: solid 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.main {
+  margin: 30px 0px;
+  width: 100%;
+  height: 100vh;
+  border: solid 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+.storys {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0px 0px;
+}
+.story {
+  position: relative;
+  margin: 0px 10px;
+  justify-content: center;
+}
+.story_img {
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: solid 3px #f42664;
+}
+.story span {
+  position: absolute;
+  left: 6px;
+  bottom: -20px;
+  font-size: 12px;
+}
+
+.next_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: grey;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  right: 20px;
+}
+.main__header {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.2);
+}
+.main__header__contain1 {
+  display: flex;
+  align-items: center;
+}
+.main__header__contain1 span {
+  margin-left: 20px;
+}
+.main__contents__img {
+  width: 600px;
+  height: 500px;
 }
